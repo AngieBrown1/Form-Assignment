@@ -17,11 +17,6 @@
                 <li>Taking dogs for walks and "Doggy fun days" as well as general companionship</li>
             </ul>
             <li>Kennel Cleaning</li>
-            <li>Play time supervisor</li>
-            <li>Dog training</li>
-            <ul>    
-            <li>*Note: Dog trainers must complete training before signing up for the dog training task.</li>
-            </ul>
         </ol>
         </div>
         <p>Please sign up for your task, hours, and days using the form below. We are very greatful for your help, and our animals cannot wait to meet you!</p>
@@ -29,8 +24,35 @@
     <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec"
         method="post">
         <div>
-            <label for="dogsBestFriend"> Dog's Best Friend</label>
-            <input>
+            <label for="yourName">Enter your name: </label>
+            <input id="yourName" name="name" type="text" required> 
         </div>
+        
+        <div>
+            <label for="dogsBestFriend"> Dog's Best Friend</label>
+            <input id="dogsBestFriend" type="radio" name="volunteerType" value="DBF">
+        
+            <label for="kennelCleaning">Kennel Cleaning</label>
+            <input id="kennelCleaning" type="radio" name="volunteerType" value="KC">
+        </div>
+
+        <div>
+            <label for="daySelector">Days Available</label>
+            <select id="daySelector" name="day">
+                <option value="Sun">Sunday</option>
+                <option value="M">Monday</option>
+                <option value="Tue">Tuesday</option>
+                <option value="W">Wednesday</option>
+                <option value="Th">Thursday</option>
+                <option value="F">Friday</option>
+                <option value="Sat">Saturday</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="hours">Enter your available hours per week</label>
+            <input id="hours" type="number" name="hour" min="1" max="14" value="1">
+        </div>
+
 </body>
 </html>
