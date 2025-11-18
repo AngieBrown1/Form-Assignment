@@ -1,12 +1,32 @@
-h1{
-    color: coral;
-}
 
 h3{
-    color: forestgreen;
     text-decoration: underline;
 }
 
+img{
+    border: 10px dashed rgb(200, 218, 134);
+}
+
+#tasks{
+    color:rgb(31, 87, 56);
+    
+    
+}
+
 #welcome{
-    color: rgb(210, 22, 22)
+    font-weight: bolder;
+}
+
+#button{
+    margin-bottom: 1cm;
+}
+
+.info{
+    color: rgb(121, 20, 20);
+}
+
+.form{
+    font-weight: bold;
+    color: beige;
+    background-color: darkolivegreen;
 }
