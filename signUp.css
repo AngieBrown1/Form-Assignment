@@ -1,16 +1,30 @@
+h1{
+    color: rgb(10, 62, 33);
+}
 
 h3{
     text-decoration: underline;
 }
 
 img{
-    border: 10px dashed rgb(200, 218, 134);
+    border: 10px solid rgb(200, 218, 134);
+}
+
+body{
+    background-color: rgb(253, 251, 212);
+    color: rgb(29, 2, 0);
+}
+
+.tasksList{
+    background-color: rgb(167, 123, 92);
+    border: 10px solid rgb(200, 218, 134);
+    margin-bottom: 4px;
 }
 
 #tasks{
-    color:rgb(31, 87, 56);
-    
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 #welcome{
@@ -18,15 +32,25 @@ img{
 }
 
 #button{
+    margin-top: 10px;
     margin-bottom: 1cm;
 }
 
+#dogClasses{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#daySelector{
+    margin-bottom: 10px;
+}
 .info{
     color: rgb(121, 20, 20);
 }
 
 .form{
+    color: bisque;
     font-weight: bold;
-    color: beige;
-    background-color: darkolivegreen;
+    background-color: rgb(10, 62, 33);
+    border: 10px solid rgb(200, 218, 134);
 }
